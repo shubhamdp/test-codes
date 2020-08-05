@@ -1,0 +1,25 @@
+[{
+		"Letter":	0,
+		"Freq":	2858
+	}, {
+		"Letter":	31,
+		"Freq":	0
+	}, {
+		"Letter":	12,
+		"Freq":	1234
+	}, {
+		"Letter":	11,
+		"Freq":	9905
+	}, {
+		"Freq":	5554,
+		"Letter":	15
+	}, {
+		"Letter":	56,
+		"Freq":	7788
+	}, {
+		"Letter":	12,
+		"Freq":	2343
+	}, {
+		"Letter":	23,
+		"Freq":	3434
+	}]
