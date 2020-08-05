@@ -1,0 +1,6 @@
+all:
+		clear
+		g++ -std=c++11 ServerSocket.h
+		g++ -std=c++11 ServerSocket.cpp -o ServerSocket.o -c
+		g++ -std=c++11 server.cpp -o server ServerSocket.o -lpthread
+		./server 3434

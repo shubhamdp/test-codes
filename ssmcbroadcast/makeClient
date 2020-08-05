@@ -1,0 +1,6 @@
+all:
+		clear
+		g++ -std=c++11 ClientSocket.h
+		g++ -std=c++11 ClientSocket.cpp -o ClientSocket.o -c
+		g++ -std=c++11 client.cpp -o client ClientSocket.o -pthread
+		./client 127.0.0.1 3434
