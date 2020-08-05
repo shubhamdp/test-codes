@@ -1,0 +1,7 @@
+all:
+		g++ ClientSocket.h
+		g++ ClientSocket.cpp -o ClientSocket.o -c
+		g++ client.cpp -o client ClientSocket.o
+		./client 127.0.0.1 7777 inputi.txt
+		./client 127.0.0.1 7778 inputf.txt
+		./client 127.0.0.1 7779 inputc.txt

@@ -1,0 +1,7 @@
+all:
+		g++ ServerSocket.h
+		g++ ServerSocket.cpp -o ServerSocket.o -c
+		g++ server.cpp -o server ServerSocket.o
+		./server 7777
+		./server 7778
+		./server 7779
